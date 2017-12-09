@@ -15,7 +15,7 @@ public class TestMemory {
 		}
 	}
 	public static void memoryStack(){
-		int mb = 1024*1024;
+		int mb = 1024*1024*1024;
 		
 		//Getting the runtime reference from system
 		Runtime runtime = Runtime.getRuntime();
@@ -31,7 +31,7 @@ public class TestMemory {
 //			+ runtime.freeMemory() / mb);
 //		
 		//Print total available memory
-		System.out.println("Free memory "+( runtime.freeMemory() / mb)+" Total Memory: " + (runtime.totalMemory() / mb)+ ( " Max Memory:" + runtime.maxMemory() / mb));
+		System.out.println("Free memory "+( runtime.freeMemory() / mb)+" GB, Total Memory: " + (runtime.totalMemory() / mb)+ ( " GB, Max Memory:" + runtime.maxMemory() / mb+" GB"));
 
 		//Print Maximum available memory
 		//System.out.println("Max Memory:" + runtime.maxMemory() / mb);

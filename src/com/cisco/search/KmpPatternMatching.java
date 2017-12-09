@@ -12,9 +12,8 @@ public class KmpPatternMatching {
 		int[] lps = computeLPSArray(pattern);
 		for(int i=0;i<lps.length;i++)
 		System.out.print(lps[i]+" ");
-		
+
 		searchPatternOccurance(pattern,lps,txt);
-		
 
 	}
 	

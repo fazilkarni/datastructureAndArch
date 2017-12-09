@@ -75,9 +75,9 @@ public class AVL {
 		return L;
 			
 	}
-	private Node RightLeft(Node root){
-		
-	}
+//	private Node RightLeft(Node root){
+//		
+//	}
 	private int height(Node node){
 		int lh=0;
 		int rh=0;
